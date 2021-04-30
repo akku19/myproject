@@ -1,0 +1,15 @@
+.drawer-wrapper {
+    width: 300px;
+    height: 100vh;
+    background: green;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all .3s ease-in-out;
+    transform: translateX(100%);
+  }
+  .drawer-wrapper-show {
+    transition: all .3s ease-in-out;
+    transform: translateX(0) !important;
+  }

@@ -1,0 +1,233 @@
+.container{
+    background: #bbbbbb;
+}
+
+
+
+li a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: repeat;
+    background-size: auto;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0;
+    padding-top: 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 110px;
+   
+}
+
+nav.main-menu {
+    padding: 19px 0px;
+}
+.logo img {
+    max-width: 255px;
+}
+
+ul.menu-area-main {
+    list-style: none;
+    display: inline-flex;
+    margin-bottom: 0;
+}
+
+.limit-box {
+    text-align: right;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.plants .plants-box {
+    background-color: #fff;
+    box-shadow: #dcd8d8 0px 1px 3px 0px;
+    margin-bottom: 30px;
+}
+
+.gallery .titlepage {
+    text-align: center;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.gallery {
+    margin-top: 90px;
+}
+
+.gallery .Gallery-box {
+    margin-bottom: 15px;
+    margin-right: -7px;
+    margin-left: -7px;
+    position: relative;
+}
+.gallery .Gallery-box figure img {
+    width: 100%;
+}
+
+.contact .titlepage {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.contact .titlepage h2::after {
+    content: "";
+    position: absolute;
+    left: -831px;
+    top: 70%;
+    margin: 10px auto;
+    width: 25%;
+    height: 6px;
+    background: #308409;
+    right: 0;
+}
+
+form {
+    background: #308409;
+    padding: 35px 30px;
+}
+
+.form-control {
+    border: #ddd solid 1px;
+    margin-bottom: 12px;
+    border-radius: inherit !important;
+    padding: 11px 11px;
+    color: #c1bebe;
+}
+
+.Nursery-img {
+    position: relative;
+}
+
+textarea {
+    margin-bottom: 30px;
+    padding: 12px 4px 11px 11px;
+    width: 100%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control {
+    border: #ddd solid 1px;
+    margin-bottom: 12px;
+    border-radius: inherit !important;
+    padding: 11px 11px;
+    color: #c1bebe;
+}
+.map_section figure img {
+    width: 100%;
+}
+.paddimg-right {
+    padding-right: 0px;
+}
+
+.map_section figure {
+    margin: 0px;
+}
+
+.Nursery-img .text-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Nursery-img .text-box h3 {
+    font-size: 45px;
+    border: #ddd solid 5px;
+    padding: 149px 75px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Nursery-img figure {
+    margin: 0px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.hoverle {
+    display: none;
+}
+.gallery .Gallery-box:hover .hoverle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: #308409de;
+    align-items: center;
+}
+
+.gallery .Gallery-box figure {
+    margin: 0px;
+}
+
+.gallery .Gallery-box:hover .hoverle a {
+    border: #fff solid 2px;
+    background: transparent;
+    padding: 5px 38px;
+    color: #fff;
+}
+
+.gallery .titlepage h2 {
+    padding: 0px 0px 36px 0px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #050303;
+    line-height: 50px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.gallery .titlepage h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70%;
+    margin: 10px auto;
+    width: 283px;
+    height: 6px;
+    background: #308409;
+}
+h2.heading{
+    text-align: center;
+}

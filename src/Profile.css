@@ -1,0 +1,21 @@
+.profilpiture img {
+    display: block;
+    width: 100%;
+    max-width: 164px;
+    max-height: 164px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.BlogPost-Author {
+    padding: 42px 30px;
+    background: #46b3e6;
+    color: #010101;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 960px)
+.BlogPost-Author img {
+    max-width: 128px;
+    max-height: 128px;
+}
