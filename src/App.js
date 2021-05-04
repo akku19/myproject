@@ -3,6 +3,7 @@ import Chart from "react-apexcharts";
 import Moment from 'moment';
 import {  Route, Switch } from 'react-router-dom';
 import Rountings from './Rountings';
+import Datedifferance from './Datedifferance';
 import moment from "moment";
 const axios = require('axios');
 class App extends Component { 
@@ -35,7 +36,7 @@ class App extends Component {
     let country = [];
     let views = [];
     const responce = await axios.get('http://localhost:3001/api/admin/users');
-    console.log(responce.data);
+    //console.log(responce.data);
     responce.data.map((data)=>{
       username.push(data.userName)
       var dd = Moment(data.createdAt).format('DD/MM/YYYY')
@@ -73,6 +74,7 @@ class App extends Component {
     return (
       <>
         <Rountings />
+        <Datedifferance />
       <div className="app">
         <div className="row">
           <div className="mixed-chart">
